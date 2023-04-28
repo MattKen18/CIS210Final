@@ -1,0 +1,95 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;700;800&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Gaming</title>
+</head>
+<body>
+    <div id="site-wrapper" class="page gamingpage">
+      <nav id="navbar">
+        <a href="index.html" id="name">Matthew Carby</a>
+        <div id="site-links">
+          <ul id="navbar-links" style="padding-left: 0;">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="hobbies.html">Hobbies</a></li>
+            <li><a href="ranking.html">Rankings</a></li>
+            <li><a href="gaming.html" class="active-page">Gaming</a></li>
+            <li id="dropdown-list">
+              <a href="findme.html">Find Me</a>
+              <div class="dropdown">
+                <ul class="inner-list">
+                  <li>
+                    <a href="https://www.linkedin.com/in/matthewcarby" target="_blank">LinkedIn</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/MattKen18" target="_blank">GitHub</a>
+                  </li>
+                  <li>
+                    <a href="https://leetcode.com/MattKCar" target="_blank">LeetCode</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+  
+      </nav>
+        <div id="site-content">
+            <div id="gaming-holder">
+                <p>Gaming clips :)</p>
+                <div id="gaming-vid-wrapper">
+                    <div class="vid-control">
+                        <button class="arrow-direct" id="prev-btn"><</button>
+                    </div>
+                    <div id="video-container">
+                        <video id="showing" class="gaming-vid" controls>
+                            <source src="../static/images/league-vid0.mp4" type="video/mp4">
+                          Your browser does not support the video tag.
+                        </video> 
+                        <video class="gaming-vid" controls>
+                            <source src="../static/images/league-vid1.mp4" type="video/mp4">
+                          Your browser does not support the video tag.
+                        </video>
+                        <video class="gaming-vid" controls>
+                            <source src="../static/images/league-vid2.mp4" type="video/mp4">
+                          Your browser does not support the video tag.
+                        </video>
+                        <video class="gaming-vid" controls>
+                            <source src="../static/images/league-vid3.mp4" type="video/mp4">
+                          Your browser does not support the video tag.
+                        </video>
+                        <video class="gaming-vid" controls>
+                            <source src="../static/images/league-vid4.mp4" type="video/mp4">
+                          Your browser does not support the video tag.
+                        </video> 
+                        <video class="gaming-vid" controls>
+                            <source src="../static/images/league-vid5.mp4" type="video/mp4">
+                          Your browser does not support the video tag.
+                        </video> 
+                        <video class="gaming-vid" controls>
+                            <source src="../static/images/league-vid6.mp4" type="video/mp4">
+                          Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="vid-control">
+                        <button class="arrow-direct" id="next-btn">></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../static/js/gaming.js"></script>
+</body>
+</html>
